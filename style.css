@@ -16,7 +16,6 @@ nav {
     position: absolute;
     right: 10px;
     top: 10px;
-    padding: 6px 10px;
 }
 
 .hero {
@@ -30,15 +29,16 @@ nav {
 }
 
 .section {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     padding: 60px 20px;
     text-align: center;
 }
 
+/* FIXED GRID FOR ALL 9 SERVICES */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 15px;
 }
 
@@ -63,13 +63,9 @@ nav {
     border-radius: 8px;
 }
 
-.social {
-    margin-top: 10px;
-}
-
 footer {
     text-align: center;
-    padding: 20px;
     background: #111;
     color: white;
+    padding: 20px;
 }
