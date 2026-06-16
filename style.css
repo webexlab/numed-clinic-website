@@ -39,7 +39,7 @@ nav {
     text-align: center;
 }
 
-/* SLIDER FIX */
+/* SLIDER FIX (IMPORTANT) */
 .slider {
     display: flex;
     align-items: center;
