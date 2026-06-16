@@ -4,7 +4,6 @@ body {
     background: #f4f4f4;
 }
 
-/* NAV */
 nav {
     background: #111;
     color: white;
@@ -20,7 +19,6 @@ nav {
     padding: 6px 10px;
 }
 
-/* HERO */
 .hero {
     text-align: center;
     padding: 70px 20px;
@@ -31,7 +29,6 @@ nav {
     width: 120px;
 }
 
-/* SECTIONS */
 .section {
     max-width: 1000px;
     margin: auto;
@@ -39,20 +36,16 @@ nav {
     text-align: center;
 }
 
-/* SLIDER FIX (IMPORTANT) */
-.slider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
 }
 
-/* CARD */
 .card {
     background: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
-    width: 320px;
 }
 
 .card img {
@@ -60,7 +53,6 @@ nav {
     border-radius: 10px;
 }
 
-/* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 15px;
@@ -71,15 +63,13 @@ nav {
     border-radius: 8px;
 }
 
-/* SOCIAL */
 .social {
     margin-top: 10px;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
+    padding: 20px;
     background: #111;
     color: white;
-    padding: 20px;
 }
