@@ -19,8 +19,12 @@ nav {
     background: white;
 }
 
-.logo {
-    width: 120px;
+.logo{
+    display:block;
+    width:300px;
+    max-width:80%;
+    margin:0 auto 30px auto;
+}
 }
 
 /* SECTION */
@@ -106,4 +110,8 @@ nav {
 .hero .social{
     position:relative;
     z-index:1;
+}
+.hero{
+    text-align:center;
+    padding:80px 20px;
 }
