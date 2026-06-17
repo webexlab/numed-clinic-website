@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
 
@@ -19,11 +19,9 @@ nav {
     background: white;
 }
 
-.logo{
-    width:150px;
-    max-width:80%;
-}
-}
+.logo {
+    width: 150px;
+    max-width: 80%;
 }
 
 /* SECTION */
@@ -34,7 +32,7 @@ nav {
     text-align: center;
 }
 
-/* 🔥 GRID (3 PER ROW FIX) */
+/* GRID */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,28 +83,4 @@ nav {
     .grid {
         grid-template-columns: 1fr;
     }
-}
-.hero{
-    position: relative;
-    overflow: hidden;
-    min-height: 700px;
-}
-
-.hero-bg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    max-width: 1200px;
-    opacity: 0.08;
-    z-index: 0;
-}
-
-.hero h1,
-.hero p,
-.hero .btn,
-.hero .social{
-    position: relative;
-    z-index: 1;
 }
