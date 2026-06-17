@@ -108,7 +108,13 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+.before-grid {
+    gap: 35px;
+}
+
 .before-grid img {
-    height: 320px;
+    height: 450px;
+    width: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
